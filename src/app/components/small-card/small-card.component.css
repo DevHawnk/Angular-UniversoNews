@@ -1,0 +1,30 @@
+.container_samll-card {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 10px;
+  align-items: center;
+  width: 700px;
+  border-radius: 10px;
+}
+
+.container_smaill-cars-content {
+  display: flex;
+  flex-direction: row;
+  margin: 9px;
+}
+
+.small-card_picture > img {
+  width: 200px;
+  min-width: 200px;
+  align-items: center;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+.small-card_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
