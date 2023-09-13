@@ -1,7 +1,7 @@
 .container_samll-card {
+  max-width: 100%;
   display: flex;
   flex-direction: row;
-
   margin-bottom: 10px;
   align-items: center;
   width: 700px;
@@ -9,9 +9,10 @@
 }
 
 .container_smaill-cars-content {
+  max-width: 100%;
   display: flex;
   flex-direction: row;
-  margin: 9px;
+  margin: 15px;
 }
 
 .small-card_picture > img {
@@ -20,11 +21,21 @@
   align-items: center;
   margin-left: 5px;
   border-radius: 10px;
+  margin: 28px;
+  margin-top: 45px;
+  border: 4px solid rgb(84, 84, 85);
 }
 
 .small-card_title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 5px;
+  max-width: 100%;
+  font-size: -25px;
+  margin-left: 230px;
+  flex-direction: row;
+  position: absolute;
+}
+
+.small-card_descripition {
+  max-width: 100%;
+  padding: -15px;
+  margin-top: 35px;
 }

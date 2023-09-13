@@ -1,0 +1,15 @@
+.container_menu-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.container_menu-bar > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  font-size: 19px;
+  margin-top: 9px;
+  list-style-type: none;
+}

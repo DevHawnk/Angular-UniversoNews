@@ -1,11 +1,13 @@
 .container_big-card {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   justify-content: flex-start;
+  margin-top: 180px;
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 10px;
+  padding: -30px;
   width: 400px;
   height: 500px;
 }
@@ -13,6 +15,7 @@
 .big-card_picture > img {
   border-radius: 10px;
   width: 100%;
+  border: 5px solid rgb(43, 43, 43);
 }
 
 .big-card_titles > h1 {
@@ -20,6 +23,8 @@
   font-size: 20px;
 }
 .big-card_description {
+  margin: 10px;
+  padding: 9px;
   margin-top: 12px;
 }
 
