@@ -1,0 +1,46 @@
+.conteiner_journey {
+  border-radius: 16px;
+  background: #b1b1b1;
+  display: flex;
+  flex-direction: column;
+  padding: 36px;
+  margin: 45px;
+}
+
+.conteiner_journey > h1 {
+  height: 45%;
+  margin-bottom: 15px;
+  text-align: center;
+  flex-direction: column;
+  background: #b1b1b1;
+  color: rgb(235, 96, 45);
+}
+
+.journey_cover {
+  background: #b1b1b1;
+}
+
+.journey_cover {
+  background: #b1b1b1;
+  border: 2 px solid gold;
+  width: 220px;
+  height: 200px;
+  min-width: 200px;
+
+  margin-left: 55px;
+  margin-right: -210px;
+}
+.journey_cove-descripition {
+  display: flex;
+  background: #b1b1b1;
+}
+.journey_cove-descripition > p {
+  width: 50%;
+  padding: 25px;
+  margin-left: 230px;
+  background: #ebe9e9;
+  color: black;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-bottom: 45px;
+}
