@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
-import { data } from "../../component/data";
+import { dataPage } from "../../component/data";
 
 @Component({
   selector: "app-content",
@@ -21,6 +21,14 @@ export class ContentComponent {
 
   ngOnInit(): void {
     this.route.paramMap.subscribe((value) => (this.id = value.get("id")));
+    this.setValuesToComponent(this.id);
   }
-  setValuesToComponent(id: string) {}
+
+  setValuesToComponent(id: string | null) {
+    const result = dataPage.filter((article) => article.id == id);
+
+    if (!result) {
+      this.contantTitle = result.title;
+    }
+  }
 }
