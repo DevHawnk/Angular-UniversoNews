@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
-import { datapage } from "";
+import { data } from "../../component/data";
 
 @Component({
   selector: "app-content",
